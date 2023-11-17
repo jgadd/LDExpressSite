@@ -1,3 +1,4 @@
+@import url("../webfonts/Arizonia_Regular/stylesheet.css");
 /******* Bootstrap Theming ********/
 /*!
  * Bootstrap v4.5.3 (https://getbootstrap.com/)
@@ -152,13 +153,13 @@ sup {
 }
 
 a {
-  color: #FF4800;
+  color: #FF941D;
   text-decoration: none;
   background-color: transparent;
 }
 
 a:hover {
-  color: #b33200;
+  color: #FF5700;
   text-decoration: underline;
 }
 
@@ -222,6 +223,7 @@ label {
   display: inline-block;
   margin-bottom: 0.5rem;
 }
+
 
 button {
   border-radius: 0;
@@ -312,11 +314,18 @@ legend {
   color: inherit;
   white-space: normal;
 }
+.navbar.navbar-expand-lg.bg-light.navbar-light.py-3.py-lg-0.px-lg-5 .navbar-brand.ml-lg-3 .m-0.display-5.text-uppercase.text-primary {
+    color: #000280;
+    font-family: Gotham, "Helvetica Neue", Helvetica, Arial, sans-serif, "Agency FB";
+}
+
+
 
 @media (max-width: 1200px) {
   legend {
     font-size: calc(1.275rem + 0.3vw) ;
   }
+
 }
 
 progress {
@@ -1085,6 +1094,7 @@ pre code {
   .col-md-5 {
     flex: 0 0 41.66667%;
     max-width: 41.66667%;
+
   }
   .col-md-6 {
     flex: 0 0 50%;
@@ -2365,14 +2375,14 @@ fieldset:disabled a.btn {
 
 .btn-primary {
   color: #fff;
-  background-color: #FF4800;
-  border-color: #FF4800;
+  background-color: #0034FF;
+  border-color: #487FFF;
 }
 
 .btn-primary:hover {
   color: #fff;
-  background-color: #d93d00;
-  border-color: #cc3a00;
+  background-color: #000277;
+  border-color: #000009;
 }
 
 .btn-primary:focus, .btn-primary.focus {
@@ -3976,7 +3986,7 @@ input[type="button"].btn-block {
 .nav-pills .nav-link.active,
 .nav-pills .show > .nav-link {
   color: #fff;
-  background-color: #FF4800;
+  background-color: #0000FF;
 }
 
 .nav-fill > .nav-link,
@@ -4582,14 +4592,14 @@ input[type="button"].btn-block {
   padding: 0.5rem 0.75rem;
   margin-left: -1px;
   line-height: 1.25;
-  color: #FF4800;
+  color: #0005FF;
   background-color: #fff;
   border: 1px solid #dee2e6;
 }
 
 .page-link:hover {
   z-index: 2;
-  color: #b33200;
+  color: #0000FF;
   text-decoration: none;
   background-color: #e9ecef;
   border-color: #dee2e6;
@@ -4608,7 +4618,7 @@ input[type="button"].btn-block {
 .page-item.active .page-link {
   z-index: 3;
   color: #fff;
-  background-color: #FF4800;
+  background-color: #0000FF;
   border-color: #FF4800;
 }
 
@@ -4670,12 +4680,12 @@ a.badge:hover, a.badge:focus {
 
 .badge-primary {
   color: #fff;
-  background-color: #FF4800;
+  background-color: #0000FF;
 }
 
 a.badge-primary:hover, a.badge-primary:focus {
   color: #fff;
-  background-color: #cc3a00;
+  background-color: #0000FF;
 }
 
 a.badge-primary:focus, a.badge-primary.focus {
@@ -5217,6 +5227,7 @@ a.badge-dark:focus, a.badge-dark.focus {
   background-color: #0c5460;
   border-color: #0c5460;
 }
+
 
 .list-group-item-warning {
   color: #856404;
@@ -6094,13 +6105,13 @@ a.close.disabled {
 }
 
 .bg-primary {
-  background-color: #FF4800 !important;
+    background-color: #009C08 !important;
 }
 
 a.bg-primary:hover, a.bg-primary:focus,
 button.bg-primary:hover,
 button.bg-primary:focus {
-  background-color: #cc3a00 !important;
+  background-color: #0000FF !important;
 }
 
 .bg-secondary {
@@ -9264,11 +9275,11 @@ button.bg-dark:focus {
 }
 
 .text-primary {
-  color: #FF4800 !important;
+    color: #396EFF !important;
 }
 
 a.text-primary:hover, a.text-primary:focus {
-  color: #b33200 !important;
+    color: #001070 !important;
 }
 
 .text-secondary {
@@ -9449,6 +9460,7 @@ a.text-dark:hover, a.text-dark:focus {
     color: inherit;
     border-color: #dee2e6;
   }
+
 }
 
 /********** Template CSS ************/
@@ -9542,7 +9554,7 @@ p,
 }
 
 .jumbotron {
-  background: linear-gradient(rgba(0, 0, 0, 0.8), rgba(0, 0, 0, 0.8)), url(../img/header.jpg);
+  background: linear-gradient(rgba(0, 0, 0, 0.8), rgba(0, 0, 0, 0.8)), url("../img/header.jpg");
   background-position: top;
   background-repeat: no-repeat;
   background-size: cover;
