@@ -312,11 +312,19 @@ legend {
   color: inherit;
   white-space: normal;
 }
+.team.card.position-relative.overflow-hidden.border-0.mb-5 .card-body.text-center.p-0 p {
+    font-size: small;
+
+
+}
+
+
 
 @media (max-width: 1200px) {
   legend {
     font-size: calc(1.275rem + 0.3vw) ;
   }
+
 }
 
 progress {
@@ -9704,3 +9712,5 @@ p,
   padding: 0;
   list-style-type: none;
 }
+
+  
